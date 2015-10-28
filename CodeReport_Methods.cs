@@ -1,7 +1,7 @@
     /// <summary>
     /// Summary description for CodeReport
     /// </summary>
-    [TestClass]
+   // [TestClass]
     public class CodeReport
     {
         public CodeReport()
@@ -24,7 +24,7 @@
         /// <summary>
         /// liste les différentes methodes des services
         /// </summary>
-        [TestMethod]
+        //[TestMethod]
         public void GenerateCodeReport()
         {
 
