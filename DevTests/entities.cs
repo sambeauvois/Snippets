@@ -22,6 +22,8 @@ namespace ConsoleDeTests
         public List<URL> ReferenceURLS { get; set; }
 
         public List<Picture> Pictures { get; set; }
+        
+         public List<Food> EadibleFoods { get; set; } // can eat, daily, monthly, never etc...
     }
 
     public class Pet : Entity
@@ -34,6 +36,8 @@ namespace ConsoleDeTests
         public List<Picture> Pictures { get; set; }
 
         public List<JournalEntry> Journal { get; set; }
+        
+           public List<Food> Diet { get; set; } // can eat, daily, monthly, never etc...
     }
 
     public class Measure : Entity
