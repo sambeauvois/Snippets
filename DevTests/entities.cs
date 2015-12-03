@@ -49,7 +49,7 @@ namespace ConsoleDeTests
         }
     }
 
-    public enum MeasureTypes // parametrage : table avec enum/nom (dans les != langues) ?? )) ou resource comme pour BIS
+    public enum MeasureTypes // parametrage : table avec enum/nom (dans les != langues) ?? )) ou resource comme pour 
     {
         Undefined = 0,
         Mass = 1,
