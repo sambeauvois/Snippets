@@ -20,10 +20,16 @@
                 DailyAttentionSpanInMinutes = 10,
 
             };
+            
+                SpecieInfoConfig config = new SpecieInfoConfig
+            {
+                SpecieConfig = specie,
+                RecommendedHabitatSize = new Unit { Name = "m², m³, litters ?"}
+            };
         }
     }
 
-    public class SpecieInfoConfig
+    public class SpecieInfoConfig // if no config > default values
     {
         public SpecieInfo SpecieConfig { get; set; }
 
