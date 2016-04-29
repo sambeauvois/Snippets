@@ -10,6 +10,7 @@ using System.IO;
 
 namespace DemoImageGeneration
 {
+    // quick demo on picture generation
     class Program
     {
         // --> Add reference system.drawing
@@ -18,7 +19,7 @@ namespace DemoImageGeneration
             GenerateAvatar("Archibald", "Haddock");
             GenerateAvatar("Tryphon", "Tournesol");
             
-            Process.Start(Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location));
+            
         }
 
 
